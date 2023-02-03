@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+        <title>HTML AND CSS portfolio </title>
+    </head>
+
+    <header class="curved-header">
+        <div class="logo">
+        <a href="">Wurood</a>
+        </div>
+        <a href="#" class="toggle-button">
+        <i class="ri-layout-grid-fill"></i>
+        </a>
+        <ul class="nav-links">
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#reasonForApplaying">Why I Apply For The Program</a></li>
+        </ul>
+    </header>
+    
+    <body>
+        <div class="welcome-text">Welcome To My portfolio !</div>
+        <div class="content">
+            <div class="aboutMe" id="aboutMe">
+                    <div id="aboutMe">
+                    <div class="background"></div>
+                    <div class="blur-filter"></div>
+                    <div class="filter">
+                    <h1>Wurood Jibrel</h1>
+                    <a href="https://www.linkedin.com/in/wurood-jebril-29b266137/" target="_blank" rel="noopener">
+                        <h2>@wuroodjibreel</h2>
+                    </a>
+                    <p class="description">I am a computer engineer graduated from An Najah NAtional University since 2018 , and nowadays i am working as a full stack developer on Paltel company .</p>
+                    </div>
+                    <img src="./personal_photo.jpg" draggable="false" itemprop="image">
+                    </div>
+            </div>
+
+      <div class="page-divider"></div>
+    
+      <div class="reasonForApplaying" id="reasonForApplaying">
+          <div class="title">Why I Apply For The Program</div>
+          <p>I am applying for this training because React is a popular FrontEnd Framework and i want to have experience on it</p>
+      </div>
+    
+      <div class="contact" id="contact">
+          <div class="title">Contact</div>
+          <div class="container">  
+            <form id="contactForm" action="" method="post" >
+              <h3>Contact Form</h3>
+              <fieldset>
+                <input placeholder="Name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Phone Number (optional)" type="tel" tabindex="3" required>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button id="submit" name="submit" type="submit" id="contact-submit" onclick="submitForm()" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
+          </div>     
+         </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+    </body>
+    
+    <footer>
+        <div class="wrapper">
+            <a href="https://www.facebook.com/Wurood.95" class="icon facebook">
+              <div class="tooltip">Facebook</div>
+              <span><i class="fab fa-facebook-f"></i></span>
+            </a>
+            <a href="https://www.linkedin.com/notifications/?filter=all" class="icon LinkedIn">
+              <div class="tooltip">LinkedIn</div>
+              <span><i class="fab fa-linkedin"></i></span>
+            </a>
+            <a href="https://github.com/wurood" class="icon github">
+              <div class="tooltip">Github</div>
+              <span><i class="fab fa-github"></i></span>
+            </a>
+          </div>
+    </footer>
